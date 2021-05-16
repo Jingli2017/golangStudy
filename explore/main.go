@@ -2,8 +2,9 @@ package main
 
 import(
   "fmt"
+  "rsc.io/quote"
 )
 
 func main(){
-  fmt.Println("start exploring golang!")
+  fmt.Println(quote.Go())
 }
